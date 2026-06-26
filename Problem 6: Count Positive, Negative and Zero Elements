@@ -5,10 +5,10 @@ negative_count = 0
 zero_count = 0 
 
 for x in arr:
-    if x < 0:
+    if x >  0:
         positive_count = positive_count + 1
 
-    elif x > 0:
+    elif x < 0:
         negative_count = negative_count + 1
 
     else:
