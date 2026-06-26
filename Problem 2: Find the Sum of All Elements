@@ -1,0 +1,7 @@
+arr = [10, 20, 30, 40]           
+
+total = 0  
+
+for x in arr: 
+    total = total + x
+print(sum)
